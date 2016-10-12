@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Your app title -->
+    <title>South Park TV</title>
+    <!-- Path to Framework7 iOS CSS theme styles-->
+    <link rel="stylesheet" href="/css/framework7.ios.min.css">
+    <!-- Path to Framework7 iOS related color styles -->
+    <link rel="stylesheet" href="/css/framework7.ios.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="/css/my-app.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body class="layout-dark theme-orange">
+    <!-- Status bar overlay for full screen mode (PhoneGap) -->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+        <p>Soon</p>
+      </div>
+    </div>
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+              <!--<div class="left">
+              <!-- 
+                Right link contains only icon - additional "icon-only" class
+                Additional "open-panel" class tells app to open panel when we click on this link
+              
+              <a href="#" class="link icon-only open-panel"><i class="material-icons">menu</i></a>
+            </div>-->
+            <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+            <div class="center sliding">South Park TV</div>
+            
+          </div>
+        </div>
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content -->
+            <div class="page-content">
+                <div class="tabs">
+<div id="tab1" class="tab active">
+              <div class="list-block media-list">
+<ul>
+<li><a href="/pages/s1.html" class="item-link item-content">
+<div class="item-media"><img src="http://tvstock.net/sites/default/files/poster-south-park-season-1.jpg" width="44"></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Season 1</div>
+</div>
+<div class="item-subtitle">13 Episodes</div>
+</div></a></li>
+</ul>
+</div>
+                
+                
+              <!-- Link to another page -->
+</div>
+<div id="tab2" class="tab">
+<p>Seasons</p>
+<p>Comeing soon!!!</p>
+</div>
+<div id="tab3" class="tab">
+<p>Search</p>
+<p>Coming Soon!!!</p>
+</div>
+<div id="tab4" class="tab">
+<p>About</p>
+<p>Made by Brendan.</p>
+</div>
+</div>
+</div>
+                
+                
+                
+                
+                
+                
+
+            </div>
+          </div>
+        
+        <!-- Bottom Toolbar-->
+        <div class="toolbar tabbar">
+    <div class="toolbar-inner">
+        <a href="#tab1" class="tab-link active">
+            <i class="material-icons">home</i>
+            <span class="tabbar-label">Home</span>
+        </a>
+        <a href="#tab2" class="tab-link">
+            <i class="material-icons">video_library</i>
+            <span class="tabbar-label">Seasons</span>
+        </a>
+        <a href="#tab3" class="tab-link">
+            <i class="material-icons">search</i>
+            <span class="tabbar-label">Search</span>
+        </a>
+        <a href="#tab4" class="tab-link">
+            <i class="material-icons">info_outline</i>
+            <span class="tabbar-label">About</span>
+        </a>
+    </div>
+</div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="/js/my-app.js"></script>
+  </body>
+</html>    
